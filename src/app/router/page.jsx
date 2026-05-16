@@ -14,3 +14,10 @@ function page() {
 }
 
 export default page;
+
+export function generateMetadata() {
+  return {
+    title: "This is the user list page",
+    description: "This is the user list page, you can find all the users here",
+  };
+}
